@@ -1,0 +1,195 @@
+html {
+    font-family: sans-serif;
+    hyphens: auto;
+  }
+  
+  article {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  div.ficha {
+    border: black 2px solid;
+    margin: 10px;
+  }
+  
+  article p {
+    margin: 0;
+    padding: 5px;
+  }
+  
+  p.p1 {
+    text-align: center;
+  }
+  
+  p.p2 {
+    padding: 5px 0;
+    background-color: lightgray;
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  p.p3 {
+    text-align: justify;
+  }
+
+  
+  article.caja11 p.p3 {
+    width: 200px;
+    margin: 10px;
+    border: black 2px solid;
+  }
+  
+  
+  article.caja12 {
+    justify-content: space-around;
+  }
+  
+  article.caja12 p.p3 {
+    width: 200px;
+    margin: 10px;
+    border: black 2px solid;
+  }
+  
+
+  article.caja13 {
+    align-items: center;
+  }
+  
+  article.caja13 p.p3 {
+    width: 200px;
+    margin: 10px;
+    border: black 2px solid;
+  }
+  
+
+  
+  article.caja21 div.ficha {
+    width: 200px;
+  }
+  
+  
+  article.caja22 {
+    align-items: center;
+  }
+  
+  article.caja22 div.ficha {
+    width: 200px;
+  }
+  
+  article.caja22 p.p2 {
+    border-bottom: black 2px solid;
+  }
+  
+
+  
+  article.caja23 div.ficha {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+  }
+  
+  article.caja23 p.p1 {
+    font-size: 400%;
+  }
+  
+  
+  article.caja24 {
+    align-items: center;
+  }
+  
+  article.caja24 div.ficha {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+  }
+  
+  article.caja24 p.p1 {
+    border-right: black 2px solid;
+    font-size: 400%;
+  }
+  
+  article.caja24 p.p3 {
+    background-color: lightgray;
+  }
+  
+
+  
+  article.caja25 div.ficha {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    background-color: lightgray;
+  }
+  
+  article.caja25 p.p1 {
+    border-right: black 2px solid;
+    font-size: 400%;
+    background-color: white;
+  }
+  
+  article.caja25 p.p2 {
+    flex-grow: 1;
+    align-self: center;
+  }
+  
+  
+  
+  article.caja31 div.ficha {
+    width: 200px;
+  }
+  
+  article.caja31 p.p1 {
+    font-size: 600%;
+    text-align: center;
+  }
+  
+  
+  
+  article.caja32 div.ficha {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  article.caja32 div.parte {
+    display: flex;
+    flex-direction: column;
+    border-left: black 2px solid;
+  }
+  
+  article.caja32 p.p1 {
+    font-size: 600%;
+    align-self: center;
+  }
+  
+  article.caja32 p.p2 {
+    border-bottom: black 2px solid;
+  }
+  
+  
+  article.caja33 div.ficha {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  article.caja33 div.parte {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+  }
+  
+  article.caja33 p.p1 {
+    font-size: 400%;
+    border-bottom: black 2px solid;
+    border-right: black 2px solid;
+    border-bottom-right-radius: 10px;
+  }
+  
+  article.caja33 p.p2 {
+    align-self: center;
+    align-content: center;
+  }
